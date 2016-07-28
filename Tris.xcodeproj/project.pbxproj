@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40204D101D49EF4C00E7AED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40204D0F1D49EF4C00E7AED9 /* AppDelegate.swift */; };
+		40204D121D49EF4C00E7AED9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 40204D111D49EF4C00E7AED9 /* GameScene.sks */; };
+		40204D141D49EF4C00E7AED9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40204D131D49EF4C00E7AED9 /* GameScene.swift */; };
+		40204D161D49EF4C00E7AED9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40204D151D49EF4C00E7AED9 /* GameViewController.swift */; };
+		40204D191D49EF4C00E7AED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40204D171D49EF4C00E7AED9 /* Main.storyboard */; };
+		40204D1B1D49EF4C00E7AED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40204D1A1D49EF4C00E7AED9 /* Assets.xcassets */; };
+		40204D1E1D49EF4C00E7AED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40204D1C1D49EF4C00E7AED9 /* LaunchScreen.storyboard */; };
+		40204D291D49EF4C00E7AED9 /* TrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40204D281D49EF4C00E7AED9 /* TrisTests.swift */; };
+		40204D341D49EF4C00E7AED9 /* TrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40204D331D49EF4C00E7AED9 /* TrisUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40204D251D49EF4C00E7AED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40204D041D49EF4B00E7AED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40204D0B1D49EF4B00E7AED9;
+			remoteInfo = Tris;
+		};
+		40204D301D49EF4C00E7AED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40204D041D49EF4B00E7AED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40204D0B1D49EF4B00E7AED9;
+			remoteInfo = Tris;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40204D0C1D49EF4B00E7AED9 /* Tris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40204D0F1D49EF4C00E7AED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40204D111D49EF4C00E7AED9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		40204D131D49EF4C00E7AED9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		40204D151D49EF4C00E7AED9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		40204D181D49EF4C00E7AED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40204D1A1D49EF4C00E7AED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40204D1D1D49EF4C00E7AED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40204D1F1D49EF4C00E7AED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40204D241D49EF4C00E7AED9 /* TrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40204D281D49EF4C00E7AED9 /* TrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrisTests.swift; sourceTree = "<group>"; };
+		40204D2A1D49EF4C00E7AED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40204D2F1D49EF4C00E7AED9 /* TrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40204D331D49EF4C00E7AED9 /* TrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrisUITests.swift; sourceTree = "<group>"; };
+		40204D351D49EF4C00E7AED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40204D091D49EF4B00E7AED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40204D211D49EF4C00E7AED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40204D2C1D49EF4C00E7AED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40204D031D49EF4B00E7AED9 = {
+			isa = PBXGroup;
+			children = (
+				40204D0E1D49EF4B00E7AED9 /* Tris */,
+				40204D271D49EF4C00E7AED9 /* TrisTests */,
+				40204D321D49EF4C00E7AED9 /* TrisUITests */,
+				40204D0D1D49EF4B00E7AED9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40204D0D1D49EF4B00E7AED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40204D0C1D49EF4B00E7AED9 /* Tris.app */,
+				40204D241D49EF4C00E7AED9 /* TrisTests.xctest */,
+				40204D2F1D49EF4C00E7AED9 /* TrisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40204D0E1D49EF4B00E7AED9 /* Tris */ = {
+			isa = PBXGroup;
+			children = (
+				40204D0F1D49EF4C00E7AED9 /* AppDelegate.swift */,
+				40204D111D49EF4C00E7AED9 /* GameScene.sks */,
+				40204D131D49EF4C00E7AED9 /* GameScene.swift */,
+				40204D151D49EF4C00E7AED9 /* GameViewController.swift */,
+				40204D171D49EF4C00E7AED9 /* Main.storyboard */,
+				40204D1A1D49EF4C00E7AED9 /* Assets.xcassets */,
+				40204D1C1D49EF4C00E7AED9 /* LaunchScreen.storyboard */,
+				40204D1F1D49EF4C00E7AED9 /* Info.plist */,
+			);
+			path = Tris;
+			sourceTree = "<group>";
+		};
+		40204D271D49EF4C00E7AED9 /* TrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				40204D281D49EF4C00E7AED9 /* TrisTests.swift */,
+				40204D2A1D49EF4C00E7AED9 /* Info.plist */,
+			);
+			path = TrisTests;
+			sourceTree = "<group>";
+		};
+		40204D321D49EF4C00E7AED9 /* TrisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40204D331D49EF4C00E7AED9 /* TrisUITests.swift */,
+				40204D351D49EF4C00E7AED9 /* Info.plist */,
+			);
+			path = TrisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40204D0B1D49EF4B00E7AED9 /* Tris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40204D381D49EF4C00E7AED9 /* Build configuration list for PBXNativeTarget "Tris" */;
+			buildPhases = (
+				40204D081D49EF4B00E7AED9 /* Sources */,
+				40204D091D49EF4B00E7AED9 /* Frameworks */,
+				40204D0A1D49EF4B00E7AED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tris;
+			productName = Tris;
+			productReference = 40204D0C1D49EF4B00E7AED9 /* Tris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40204D231D49EF4C00E7AED9 /* TrisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40204D3B1D49EF4C00E7AED9 /* Build configuration list for PBXNativeTarget "TrisTests" */;
+			buildPhases = (
+				40204D201D49EF4C00E7AED9 /* Sources */,
+				40204D211D49EF4C00E7AED9 /* Frameworks */,
+				40204D221D49EF4C00E7AED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40204D261D49EF4C00E7AED9 /* PBXTargetDependency */,
+			);
+			name = TrisTests;
+			productName = TrisTests;
+			productReference = 40204D241D49EF4C00E7AED9 /* TrisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40204D2E1D49EF4C00E7AED9 /* TrisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40204D3E1D49EF4C00E7AED9 /* Build configuration list for PBXNativeTarget "TrisUITests" */;
+			buildPhases = (
+				40204D2B1D49EF4C00E7AED9 /* Sources */,
+				40204D2C1D49EF4C00E7AED9 /* Frameworks */,
+				40204D2D1D49EF4C00E7AED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40204D311D49EF4C00E7AED9 /* PBXTargetDependency */,
+			);
+			name = TrisUITests;
+			productName = TrisUITests;
+			productReference = 40204D2F1D49EF4C00E7AED9 /* TrisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40204D041D49EF4B00E7AED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Eshan;
+				TargetAttributes = {
+					40204D0B1D49EF4B00E7AED9 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					40204D231D49EF4C00E7AED9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 40204D0B1D49EF4B00E7AED9;
+					};
+					40204D2E1D49EF4C00E7AED9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 40204D0B1D49EF4B00E7AED9;
+					};
+				};
+			};
+			buildConfigurationList = 40204D071D49EF4B00E7AED9 /* Build configuration list for PBXProject "Tris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40204D031D49EF4B00E7AED9;
+			productRefGroup = 40204D0D1D49EF4B00E7AED9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40204D0B1D49EF4B00E7AED9 /* Tris */,
+				40204D231D49EF4C00E7AED9 /* TrisTests */,
+				40204D2E1D49EF4C00E7AED9 /* TrisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40204D0A1D49EF4B00E7AED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40204D121D49EF4C00E7AED9 /* GameScene.sks in Resources */,
+				40204D1E1D49EF4C00E7AED9 /* LaunchScreen.storyboard in Resources */,
+				40204D1B1D49EF4C00E7AED9 /* Assets.xcassets in Resources */,
+				40204D191D49EF4C00E7AED9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40204D221D49EF4C00E7AED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40204D2D1D49EF4C00E7AED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40204D081D49EF4B00E7AED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40204D141D49EF4C00E7AED9 /* GameScene.swift in Sources */,
+				40204D161D49EF4C00E7AED9 /* GameViewController.swift in Sources */,
+				40204D101D49EF4C00E7AED9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40204D201D49EF4C00E7AED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40204D291D49EF4C00E7AED9 /* TrisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40204D2B1D49EF4C00E7AED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40204D341D49EF4C00E7AED9 /* TrisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40204D261D49EF4C00E7AED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40204D0B1D49EF4B00E7AED9 /* Tris */;
+			targetProxy = 40204D251D49EF4C00E7AED9 /* PBXContainerItemProxy */;
+		};
+		40204D311D49EF4C00E7AED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40204D0B1D49EF4B00E7AED9 /* Tris */;
+			targetProxy = 40204D301D49EF4C00E7AED9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40204D171D49EF4C00E7AED9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40204D181D49EF4C00E7AED9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40204D1C1D49EF4C00E7AED9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40204D1D1D49EF4C00E7AED9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40204D361D49EF4C00E7AED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40204D371D49EF4C00E7AED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40204D391D49EF4C00E7AED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tris/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eshan.Tris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40204D3A1D49EF4C00E7AED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tris/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eshan.Tris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40204D3C1D49EF4C00E7AED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TrisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eshan.TrisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tris.app/Tris";
+			};
+			name = Debug;
+		};
+		40204D3D1D49EF4C00E7AED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eshan.TrisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tris.app/Tris";
+			};
+			name = Release;
+		};
+		40204D3F1D49EF4C00E7AED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TrisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eshan.TrisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tris;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		40204D401D49EF4C00E7AED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eshan.TrisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tris;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40204D071D49EF4B00E7AED9 /* Build configuration list for PBXProject "Tris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40204D361D49EF4C00E7AED9 /* Debug */,
+				40204D371D49EF4C00E7AED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40204D381D49EF4C00E7AED9 /* Build configuration list for PBXNativeTarget "Tris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40204D391D49EF4C00E7AED9 /* Debug */,
+				40204D3A1D49EF4C00E7AED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40204D3B1D49EF4C00E7AED9 /* Build configuration list for PBXNativeTarget "TrisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40204D3C1D49EF4C00E7AED9 /* Debug */,
+				40204D3D1D49EF4C00E7AED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40204D3E1D49EF4C00E7AED9 /* Build configuration list for PBXNativeTarget "TrisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40204D3F1D49EF4C00E7AED9 /* Debug */,
+				40204D401D49EF4C00E7AED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40204D041D49EF4B00E7AED9 /* Project object */;
+}
