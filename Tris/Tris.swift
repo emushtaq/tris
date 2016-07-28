@@ -5,6 +5,7 @@
 //  Created by Eshan on 7/28/16.
 //  Copyright © 2016 Eshan. All rights reserved.
 //
+import Foundation
 
 let NumColumns = 10
 let NumRows = 20
@@ -17,6 +18,8 @@ let PreviewRow = 1
 
 let PointsPerLine = 10
 let LevelThreshold = 500
+
+let defaults = NSUserDefaults.standardUserDefaults()
 
 protocol TrisDelegate {
     // Invoked when the current round of Swiftris ends
@@ -46,6 +49,7 @@ class Tris {
     
     var score = 0
     var level = 1
+    var highscore = defaults.integerForKey("highscore")
     
     init() {
         fallingShape = nil
@@ -187,6 +191,13 @@ class Tris {
         delegate?.gameDidEnd(self)
     }
     
+    func updateHighScore() {
+        if score > highscore {
+            highscore = score
+            defaults.setInteger(highscore, forKey: "highscore") 
+        }
+    }
+    
     func removeCompletedLines() -> (linesRemoved: Array<Array<Block>>, fallenBlocks: Array<Array<Block>>) {
         var removedLines = Array<Array<Block>>()
         for row in (1..<NumRows).reverse() {
@@ -212,6 +223,8 @@ class Tris {
         
         let pointsEarned = removedLines.count * PointsPerLine * level
         score += pointsEarned
+        updateHighScore()
+        
         if score >= level * LevelThreshold {
             level += 1
             delegate?.gameDidLevelUp(self)

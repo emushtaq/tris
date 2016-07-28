@@ -19,6 +19,7 @@ class GameViewController: UIViewController, TrisDelegate, UIGestureRecognizerDel
 
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var levelLabel: UILabel!
+    @IBOutlet weak var highscoreLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -112,6 +113,7 @@ class GameViewController: UIViewController, TrisDelegate, UIGestureRecognizerDel
     func gameDidBegin(tris: Tris) {
         levelLabel.text = "\(tris.level)"
         scoreLabel.text = "\(tris.score)"
+        highscoreLabel.text = "\(tris.highscore)"
         scene.tickLengthMillis = TickLengthLevelOne
         
         // The following is false when restarting a new game
@@ -159,6 +161,7 @@ class GameViewController: UIViewController, TrisDelegate, UIGestureRecognizerDel
         let removedLines = tris.removeCompletedLines()
         if removedLines.linesRemoved.count > 0 {
             self.scoreLabel.text = "\(tris.score)"
+            self.highscoreLabel.text = "\(tris.highscore)"
             scene.animateCollapsingLines(removedLines.linesRemoved, fallenBlocks:removedLines.fallenBlocks) {
                 self.gameShapeDidLand(tris)
             }
