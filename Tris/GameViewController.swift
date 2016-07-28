@@ -8,6 +8,7 @@
 
 import UIKit
 import SpriteKit
+import iAd
 
 class GameViewController: UIViewController, TrisDelegate, UIGestureRecognizerDelegate {
     
@@ -25,6 +26,9 @@ class GameViewController: UIViewController, TrisDelegate, UIGestureRecognizerDel
         // Config View
         let skView = view as! SKView
         skView.multipleTouchEnabled = false
+        
+        self.canDisplayBannerAds = true
+
         
         // Config Scene
         scene = GameScene(size: skView.bounds.size)
