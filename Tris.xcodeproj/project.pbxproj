@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		40204D101D49EF4C00E7AED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40204D0F1D49EF4C00E7AED9 /* AppDelegate.swift */; };
-		40204D121D49EF4C00E7AED9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 40204D111D49EF4C00E7AED9 /* GameScene.sks */; };
 		40204D141D49EF4C00E7AED9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40204D131D49EF4C00E7AED9 /* GameScene.swift */; };
 		40204D161D49EF4C00E7AED9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40204D151D49EF4C00E7AED9 /* GameViewController.swift */; };
 		40204D191D49EF4C00E7AED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40204D171D49EF4C00E7AED9 /* Main.storyboard */; };
@@ -16,6 +15,8 @@
 		40204D1E1D49EF4C00E7AED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40204D1C1D49EF4C00E7AED9 /* LaunchScreen.storyboard */; };
 		40204D291D49EF4C00E7AED9 /* TrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40204D281D49EF4C00E7AED9 /* TrisTests.swift */; };
 		40204D341D49EF4C00E7AED9 /* TrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40204D331D49EF4C00E7AED9 /* TrisUITests.swift */; };
+		40C4C34A1D49F1E600BD855F /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 40C4C3491D49F1E600BD855F /* Sounds */; };
+		40C4C34C1D49F1F000BD855F /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 40C4C34B1D49F1F000BD855F /* Sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 /* Begin PBXFileReference section */
 		40204D0C1D49EF4B00E7AED9 /* Tris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40204D0F1D49EF4C00E7AED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40204D111D49EF4C00E7AED9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		40204D131D49EF4C00E7AED9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		40204D151D49EF4C00E7AED9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		40204D181D49EF4C00E7AED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,8 @@
 		40204D2F1D49EF4C00E7AED9 /* TrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40204D331D49EF4C00E7AED9 /* TrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrisUITests.swift; sourceTree = "<group>"; };
 		40204D351D49EF4C00E7AED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C4C3491D49F1E600BD855F /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		40C4C34B1D49F1F000BD855F /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				40204D0F1D49EF4C00E7AED9 /* AppDelegate.swift */,
-				40204D111D49EF4C00E7AED9 /* GameScene.sks */,
 				40204D131D49EF4C00E7AED9 /* GameScene.swift */,
 				40204D151D49EF4C00E7AED9 /* GameViewController.swift */,
 				40204D171D49EF4C00E7AED9 /* Main.storyboard */,
+				40C4C34B1D49F1F000BD855F /* Sprites.atlas */,
+				40C4C3491D49F1E600BD855F /* Sounds */,
 				40204D1A1D49EF4C00E7AED9 /* Assets.xcassets */,
 				40204D1C1D49EF4C00E7AED9 /* LaunchScreen.storyboard */,
 				40204D1F1D49EF4C00E7AED9 /* Info.plist */,
@@ -235,10 +238,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40204D121D49EF4C00E7AED9 /* GameScene.sks in Resources */,
 				40204D1E1D49EF4C00E7AED9 /* LaunchScreen.storyboard in Resources */,
 				40204D1B1D49EF4C00E7AED9 /* Assets.xcassets in Resources */,
+				40C4C34A1D49F1E600BD855F /* Sounds in Resources */,
 				40204D191D49EF4C00E7AED9 /* Main.storyboard in Resources */,
+				40C4C34C1D49F1F000BD855F /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +496,7 @@
 				40204D3A1D49EF4C00E7AED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40204D3B1D49EF4C00E7AED9 /* Build configuration list for PBXNativeTarget "TrisTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +505,7 @@
 				40204D3D1D49EF4C00E7AED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40204D3E1D49EF4C00E7AED9 /* Build configuration list for PBXNativeTarget "TrisUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +514,7 @@
 				40204D401D49EF4C00E7AED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
