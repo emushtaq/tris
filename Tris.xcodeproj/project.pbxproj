@@ -18,6 +18,7 @@
 		40C4C34A1D49F1E600BD855F /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 40C4C3491D49F1E600BD855F /* Sounds */; };
 		40C4C34C1D49F1F000BD855F /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 40C4C34B1D49F1F000BD855F /* Sprites.atlas */; };
 		40C4C34E1D49F6B100BD855F /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C4C34D1D49F6B100BD855F /* Array2D.swift */; };
+		40C4C3501D4A12B700BD855F /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C4C34F1D4A12B700BD855F /* Block.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		40C4C3491D49F1E600BD855F /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		40C4C34B1D49F1F000BD855F /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		40C4C34D1D49F6B100BD855F /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		40C4C34F1D4A12B700BD855F /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				40204D0F1D49EF4C00E7AED9 /* AppDelegate.swift */,
 				40204D131D49EF4C00E7AED9 /* GameScene.swift */,
+				40C4C34F1D4A12B700BD855F /* Block.swift */,
 				40204D151D49EF4C00E7AED9 /* GameViewController.swift */,
 				40C4C34D1D49F6B100BD855F /* Array2D.swift */,
 				40204D171D49EF4C00E7AED9 /* Main.storyboard */,
@@ -272,6 +275,7 @@
 			files = (
 				40204D141D49EF4C00E7AED9 /* GameScene.swift in Sources */,
 				40C4C34E1D49F6B100BD855F /* Array2D.swift in Sources */,
+				40C4C3501D4A12B700BD855F /* Block.swift in Sources */,
 				40204D161D49EF4C00E7AED9 /* GameViewController.swift in Sources */,
 				40204D101D49EF4C00E7AED9 /* AppDelegate.swift in Sources */,
 			);
