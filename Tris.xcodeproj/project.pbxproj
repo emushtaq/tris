@@ -24,7 +24,6 @@
 		405E54F11D4AB4D500F01C7F /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E54F01D4AB4D500F01C7F /* SShape.swift */; };
 		405E54F31D4AB4EB00F01C7F /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E54F21D4AB4EB00F01C7F /* ZShape.swift */; };
 		405E54F51D4AB5E500F01C7F /* Tris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E54F41D4AB5E500F01C7F /* Tris.swift */; };
-		405E54F71D4AC42300F01C7F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405E54F61D4AC42300F01C7F /* iAd.framework */; };
 		40C4C34A1D49F1E600BD855F /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 40C4C3491D49F1E600BD855F /* Sounds */; };
 		40C4C34C1D49F1F000BD855F /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 40C4C34B1D49F1F000BD855F /* Sprites.atlas */; };
 		40C4C34E1D49F6B100BD855F /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C4C34D1D49F6B100BD855F /* Array2D.swift */; };
@@ -72,7 +71,6 @@
 		405E54F01D4AB4D500F01C7F /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
 		405E54F21D4AB4EB00F01C7F /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
 		405E54F41D4AB5E500F01C7F /* Tris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tris.swift; sourceTree = "<group>"; };
-		405E54F61D4AC42300F01C7F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		40C4C3491D49F1E600BD855F /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		40C4C34B1D49F1F000BD855F /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		40C4C34D1D49F6B100BD855F /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				405E54F71D4AC42300F01C7F /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +105,6 @@
 		40204D031D49EF4B00E7AED9 = {
 			isa = PBXGroup;
 			children = (
-				405E54F61D4AC42300F01C7F /* iAd.framework */,
 				40204D0E1D49EF4B00E7AED9 /* Tris */,
 				40204D271D49EF4C00E7AED9 /* TrisTests */,
 				40204D321D49EF4C00E7AED9 /* TrisUITests */,
