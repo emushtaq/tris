@@ -79,10 +79,9 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EH0-9e-ndp">
                                 <rect key="frame" x="29" y="470" width="35" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.020532956710662131" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <size key="titleShadowOffset" width="2" height="2"/>
-                                <state key="normal" title="L">
+                                <state key="normal" backgroundImage="left-arrow">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -92,10 +91,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQU-sz-okc">
                                 <rect key="frame" x="131" y="470" width="35" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.020532956710000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <size key="titleShadowOffset" width="2" height="2"/>
-                                <state key="normal" title="R">
+                                <state key="normal" backgroundImage="right-arrow">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -105,10 +103,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PdB-wU-y0s">
                                 <rect key="frame" x="81" y="514" width="35" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.020532956710000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <size key="titleShadowOffset" width="2" height="2"/>
-                                <state key="normal" title="D">
+                                <state key="normal" backgroundImage="download-arrow">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -120,12 +117,12 @@
                                 <rect key="frame" x="236" y="490" width="39" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <size key="titleShadowOffset" width="2" height="2"/>
-                                <state key="normal" backgroundImage="refresh-page-option">
+                                <state key="normal" backgroundImage="refresh">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="didDown:" destination="BV1-FR-VrT" eventType="touchUpInside" id="f6y-Vi-Kmh"/>
+                                    <action selector="didRotate:" destination="BV1-FR-VrT" eventType="touchUpInside" id="S2k-jf-xRb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -169,7 +166,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="refresh-page-option" width="32" height="32"/>
+        <image name="download-arrow" width="128" height="128"/>
+        <image name="left-arrow" width="128" height="128"/>
+        <image name="refresh" width="128" height="128"/>
+        <image name="right-arrow" width="128" height="128"/>
         <image name="whitebg" width="84" height="100"/>
     </resources>
 </document>

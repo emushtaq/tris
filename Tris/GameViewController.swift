@@ -50,7 +50,7 @@ class GameViewController: UIViewController, TrisDelegate, UIGestureRecognizerDel
     }
     
     @IBAction func didTap(sender: UITapGestureRecognizer) {
-        tris.rotateShape()
+        //tris.rotateShape()
     }
     
     @IBAction func didPan(sender: UIPanGestureRecognizer) {
@@ -71,6 +71,10 @@ class GameViewController: UIViewController, TrisDelegate, UIGestureRecognizerDel
             panPointReference = currentPoint
         }
 
+    }
+    
+    @IBAction func didRotate(sender: UIButton) {
+        tris.rotateShape()
     }
     
     @IBAction func didLeft(sender: UIButton) {

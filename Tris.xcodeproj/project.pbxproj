@@ -11,7 +11,6 @@
 		40204D141D49EF4C00E7AED9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40204D131D49EF4C00E7AED9 /* GameScene.swift */; };
 		40204D161D49EF4C00E7AED9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40204D151D49EF4C00E7AED9 /* GameViewController.swift */; };
 		40204D191D49EF4C00E7AED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40204D171D49EF4C00E7AED9 /* Main.storyboard */; };
-		40204D1B1D49EF4C00E7AED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40204D1A1D49EF4C00E7AED9 /* Assets.xcassets */; };
 		40204D1E1D49EF4C00E7AED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40204D1C1D49EF4C00E7AED9 /* LaunchScreen.storyboard */; };
 		40204D291D49EF4C00E7AED9 /* TrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40204D281D49EF4C00E7AED9 /* TrisTests.swift */; };
 		40204D341D49EF4C00E7AED9 /* TrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40204D331D49EF4C00E7AED9 /* TrisUITests.swift */; };
@@ -25,9 +24,10 @@
 		405E54F31D4AB4EB00F01C7F /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E54F21D4AB4EB00F01C7F /* ZShape.swift */; };
 		405E54F51D4AB5E500F01C7F /* Tris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405E54F41D4AB5E500F01C7F /* Tris.swift */; };
 		40C4C34A1D49F1E600BD855F /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 40C4C3491D49F1E600BD855F /* Sounds */; };
-		40C4C34C1D49F1F000BD855F /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 40C4C34B1D49F1F000BD855F /* Sprites.atlas */; };
 		40C4C34E1D49F6B100BD855F /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C4C34D1D49F6B100BD855F /* Array2D.swift */; };
 		40C4C3501D4A12B700BD855F /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C4C34F1D4A12B700BD855F /* Block.swift */; };
+		40D59C071D4CCA230062DFDB /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 40D59C061D4CCA230062DFDB /* Sprites.atlas */; };
+		40D59C091D4CCA8C0062DFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D59C081D4CCA8C0062DFDB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,6 @@
 		40204D131D49EF4C00E7AED9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		40204D151D49EF4C00E7AED9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		40204D181D49EF4C00E7AED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		40204D1A1D49EF4C00E7AED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40204D1D1D49EF4C00E7AED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40204D1F1D49EF4C00E7AED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40204D241D49EF4C00E7AED9 /* TrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,9 +71,10 @@
 		405E54F21D4AB4EB00F01C7F /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
 		405E54F41D4AB5E500F01C7F /* Tris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tris.swift; sourceTree = "<group>"; };
 		40C4C3491D49F1E600BD855F /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
-		40C4C34B1D49F1F000BD855F /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		40C4C34D1D49F6B100BD855F /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		40C4C34F1D4A12B700BD855F /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		40D59C061D4CCA230062DFDB /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		40D59C081D4CCA8C0062DFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,9 +140,9 @@
 				40204D151D49EF4C00E7AED9 /* GameViewController.swift */,
 				40C4C34D1D49F6B100BD855F /* Array2D.swift */,
 				40204D171D49EF4C00E7AED9 /* Main.storyboard */,
-				40C4C34B1D49F1F000BD855F /* Sprites.atlas */,
+				40D59C081D4CCA8C0062DFDB /* Assets.xcassets */,
+				40D59C061D4CCA230062DFDB /* Sprites.atlas */,
 				40C4C3491D49F1E600BD855F /* Sounds */,
-				40204D1A1D49EF4C00E7AED9 /* Assets.xcassets */,
 				40204D1C1D49EF4C00E7AED9 /* LaunchScreen.storyboard */,
 				40204D1F1D49EF4C00E7AED9 /* Info.plist */,
 			);
@@ -271,11 +271,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40D59C071D4CCA230062DFDB /* Sprites.atlas in Resources */,
 				40204D1E1D49EF4C00E7AED9 /* LaunchScreen.storyboard in Resources */,
-				40204D1B1D49EF4C00E7AED9 /* Assets.xcassets in Resources */,
 				40C4C34A1D49F1E600BD855F /* Sounds in Resources */,
 				40204D191D49EF4C00E7AED9 /* Main.storyboard in Resources */,
-				40C4C34C1D49F1F000BD855F /* Sprites.atlas in Resources */,
+				40D59C091D4CCA8C0062DFDB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
