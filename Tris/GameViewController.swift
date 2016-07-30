@@ -73,6 +73,19 @@ class GameViewController: UIViewController, TrisDelegate, UIGestureRecognizerDel
 
     }
     
+    @IBAction func didLeft(sender: UIButton) {
+        tris.moveShapeLeft()
+    }
+    
+    @IBAction func didRight(sender: UIButton) {
+        tris.moveShapeRight()
+    }
+    
+    @IBAction func didDown(sender: UIButton) {
+        tris.dropShape()
+    }
+    
+    
     @IBAction func didSwipe(sender: AnyObject) {
         tris.dropShape()
     }
